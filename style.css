@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Raleway:wght@100&display=swap");
+
+body {
+  margin: 0;
+  border-top: solid 7px #005889;
+  padding: 50px;
+}
+.personal_info {
+  display: flex;
+  margin-left: 25px;
+}
+.name {
+  display: inline;
+}
+.blue,
+h2 {
+  color: #005889;
+}
+.objective {
+  margin-left: 25px;
+}
+.general_list p {
+  display: inline;
+}
+
+.general_list li {
+    margin-bottom: 10px;
+}
+
+.skills_list h2 {
+    color: black;
+    margin-right: 50px;
+}
+
+.skills_list {
+    display: flex;
+}
+
+.skills_list li::marker {
+    color: #005889;
+}
+
+.inner_list {
+    padding-left: 0;
+}
+
+.inner_list li {
+    /* doar folosin comanda de mai jos am reusit sa elimin markerul de la lista*/
+            list-style-type: none;
+}
